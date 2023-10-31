@@ -28,7 +28,10 @@ Getting started with the XYZ Plugin is a breeze:
 
 ## Installation
 
-Avoid DOM manipulations and overly repetitive CSS selectors.
+Avoid DOM manipulations and overly repetitive CSS selectors.<br />
+Consider Accessibility: make your website accessible to all users by using aria tags, correct title structures, and other accessibility techniques. <br />
+<li><a href="#" aria-label="Hakkında">Hakkında</a></li><br />
+Use Semantic Elements: Structure your document using correct HTML5 semantics.  For example, <header> for the title, <main> for the content, <nav> for the side menus.
 
 ## Documentation
 
