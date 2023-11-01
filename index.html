@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Hello, World!</title>
+</head>
+<body>
+    <p>Ziyaretçi Tarayıcı Penceresi Boyutları</p>
+   <p>Tarayıcı penceresinin içerik alanının genişliği: <span id="genislik"></span> piksel</p>
+  <h1>
+    Hello, World!
+  </h1>
+  <script>
+var genislik = window.outerWidth;
+if (!window.outerWidth) {
+  var genislik = document.body.clientWidth;
+}
+document.getElementById("genislik").innerHTML = genislik;
+  </script>
+</body>
+</html>
